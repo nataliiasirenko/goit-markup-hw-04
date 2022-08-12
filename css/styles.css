@@ -449,7 +449,6 @@ letter-spacing: 0.02em;
 }
 .overlay{
     max-width: 1600px;
-    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #757575;
@@ -458,5 +457,12 @@ letter-spacing: 0.02em;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/bg\ \(1\).jpg);
+}
+.subtitle::before{
+    content: "";
+    width: 270px;
+    height: 120px;
+    
+    color:red;
 }
 /*  */
