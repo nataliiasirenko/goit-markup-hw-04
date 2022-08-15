@@ -140,7 +140,8 @@ letter-spacing: 0.02em;
 .contacts .link:hover,
 .contacts .link:focus{
     color: var(--accent-color);
-    fill: var(--accent-color);
+    fill: currentColor;
+    stroke:var(--accent-color);
 }
 
 .contacts .c-link:not(:last-child){
