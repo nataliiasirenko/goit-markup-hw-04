@@ -54,7 +54,7 @@
       <div class="overlay">
         <section class="hero">
           <h1 class="hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
-          <button type="button" class="button">Замовити послугу</button>
+          <button data-modal-open type="button" class="button" >Замовити послугу</button>
         </section>
       </div>
       <!--особливості-->
@@ -94,7 +94,7 @@
           <ul class="actions">
             <li class="action-list">
               <div class="overlay-thumb">
-              <img src="./images/img.jpg" alt="розроблення макету" width="370" />
+              <img src="./images/img.jpg" alt="розроблення макету" width="370" class="overlay-image"/>
               <div class="overlay-text">
               <p>Десктопні додатки</p>
               </div>
@@ -319,12 +319,6 @@
                   </ul>
       </section>
 
-      
-      
-      <button type="button" class="btn">Замовити послугу</button>
-
-
-
     </main>
 
     <!--футер-->
@@ -382,7 +376,7 @@
                       <svg class="f-social-icon" height="20" width="20">
                         <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                       </svg>
-                    </a>
+                    <!-- </a> -->
                   </li>
                 </ul>
             </div>
@@ -390,5 +384,12 @@
       </div>
       
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close type="button" class="btn-m"></button>
+      </div>
+    <!-- </div> -->
+     <script src="./js/modal.js"></script>
   </body>
 </html>
